@@ -1,0 +1,261 @@
+@charset "UTF-8";
+/* CSS Document */
+
+<style type="text/css">
+
+
+
+#blank {
+}
+
+
+body {
+	background-image: url(images/wood.jpg);
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #51463d;
+	font-size: 12px;
+}
+
+
+
+div.scroll {
+	height: 500px;
+	width: 990px;
+	overflow: scroll;
+	overflow-x:hidden;
+}
+
+
+#header {
+	position:absolute;
+	top:5px;
+	width:990px;
+	left: 50%;
+	margin-left: -495px;
+	height:200px;
+	z-index:1;
+	background-image:url(images/Header2.gif);
+	background-repeat:none;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	-0-border-radius: 15px;
+}
+
+
+#content_container {
+	position:absolute;
+	left: 50%;
+	margin-left:-495px;
+	width:990px;
+	height:100%;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	-0-border-radius: 15px;
+}
+
+
+#slider {
+	position:absolute;
+	left: 50%;
+	margin-left: -495px;
+	width: 990px;
+	height: 350px;
+	background-color:#CC66FF;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	-0-border-radius: 15px;
+}
+
+
+
+/*
+
+#content {
+	position:absolute;
+	left: 50%;
+	margin-left: -495px;
+	width:990px;
+	z-index:2;	
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	-0-border-radius: 15px;
+}
+
+*/
+
+#content_and_footer_container {
+	position:absolute;
+	top:210px;
+	left: 50%;
+	margin-left:-495px;
+	width:990px;
+	height:100%;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	-0-border-radius: 15px;
+}
+
+
+
+#content_block {
+	position: absolute;
+	left:0px;
+	top:375px;
+	left:50%;
+	margin-left:-495px;
+	width:715px;
+	z-index:3;
+	background-image:url(images/Lines1.jpg);
+	background-repeat:repeat;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	-0-border-radius: 15px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	padding-left:15px;
+	padding-top:15px;
+	padding-right:0px;
+	padding-bottom:15px;
+}
+
+
+#navigation_bar {
+	left:50%;
+	margin-left:-495px;
+	width:990px;
+	position:absolute;
+	bottom:0px;
+	height:50px;
+	z-index:3;
+	background-color:#51463d;
+	background-repeat:repeat;
+	-moz-border-radius-bottomleft: 15px;
+	-webkit-border-bottom-left-radius: 15px;
+	-0-border-bottom-left-radius: 15px;
+	-moz-border-radius-bottomright: 15px;
+	-webkit-border-bottom-right-radius: 15px;
+	-0-border-bottom-right-radius: 15px;
+}
+
+
+
+
+/* Links */
+
+
+a:link {
+	text-decoration: none;
+	color: #3792b3;
+}
+
+
+
+/* Sidebar */
+
+#sidebar {
+	position: absolute;
+	height: 100%;
+	width: 250px;
+	top: 375px;
+	right:0px;
+	background-image:url(images/Lines1.jpg);
+	background-repeat:repeat;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	-0-border-radius: 15px;
+}
+
+
+#sidebar_box {
+	width: 240px;
+	position:absolute;
+	top:5px;
+	right:5px;
+	background-image:url(images/Lines_block.jpg);
+	background-repeat:repeat;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	-0-border-radius: 15px;
+}
+
+
+
+/* Sidebar Links */
+
+
+
+#sidebar ul {
+	list-style-type:none;
+}
+
+
+ul.list {
+	padding-left:15px;
+	padding-right:15px;
+	padding-top:15px;
+}
+
+ul.list li a {
+	display: block;
+	padding: 7px;
+	border-bottom: 1px solid #f3f2e8;
+	overflow:hidden;
+}
+
+ul.list li em {
+	font-style: normal;
+	font-weight: normal;
+	color: #9c836e;
+	float: right;
+}
+
+ul.list_li_heading {
+	font-style: normal;
+	font-weight: bold;
+	padding-left:15px;
+	padding-right:15px;
+	font-size:14px;
+}
+
+
+/* Comment Form */
+
+#comment-form fieldset {
+	margin: 0 0 5px 0;
+	border:none;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+
+}
+
+#comment-form fieldset label {
+	display:block;
+	margin:0 0 3px 0;
+	font-weight:lighter;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+
+}
+
+#comment-form fieldset input,
+#comment-form fieldset textarea {
+	padding-top:7px;
+	background: #e2e1d7;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+
+}
+
+#comment-form fieldset textarea {
+	height: 25px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+
+}
+
+
+
+/* Other Styles */
+
+
+.style1 {
+	font-size: 36px
+}
+
+</style>
